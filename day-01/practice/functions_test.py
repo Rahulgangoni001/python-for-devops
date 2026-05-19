@@ -19,7 +19,8 @@ print("The User input Env is: ",env)
 if env == "prd":
     sum_of_num() # function calling
 
-
-
+day = input("Enter the day: ")
+if day == "Monday":
+    print("Today is Monday")
 def take_backup():
     print("Backup script started ...")
